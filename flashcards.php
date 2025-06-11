@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz</title>
+</head>
+<body>
+    <h1>Flashcard Quiz</h1>
+    <form action="flashcard_quiz.php" method="post">
+        <input type="hidden" name="index" value="0">
+        <input type="hidden" name="score" value="0">
+        <button type="submit">Start Quiz</button>
+    </form>
+</body>
+</html>
